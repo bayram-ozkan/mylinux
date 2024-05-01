@@ -1,1 +1,1 @@
-Linux noktlarım
+LINUX NOTLARIM
