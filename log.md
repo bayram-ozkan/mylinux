@@ -35,3 +35,19 @@ uniq: Ardışık tekrarları kaldırır.
 
  * uniq -d : Yalnızca tekrar eden IP adreslerini gösterir.
 
+
+---
+# Linux üzerinde bir log dosyasındaki ikinci sütundaki sayıları toplamak için 
+
+
+```
+cut -d ' ' -f 2 log_dosyasi.txt
+```
+
+
+```
+awk '{sum += $2} END {print sum}' log_dosyasi.txt
+```
+
+
+
