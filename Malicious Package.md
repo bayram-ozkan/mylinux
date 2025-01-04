@@ -33,10 +33,24 @@ dpkg-deb --build malicious-package
 ```
 
 ```
-dpkg-deb -i malicious-package.deb
+sudo dpkg-deb -i malicious-package.deb
 ```
 
 ## Yüklenebilir packetleri listeler
 ```
 dpkg -l
 ```
+## dpkg log dosyaları 
+/var/log/dpkg.log
+
+## Genel sistem log(kernel, sistem servisleri, uygulama)dosyaları 
+/var/log/syslog
+
+
+## Sistem sorunlarını izlemek için kullanılır.
+/var/log/messages
+
+## Başarılı/başarısız tüm oturum açmalar
+/var/log/auth.log
+
+
