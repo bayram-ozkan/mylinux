@@ -1,7 +1,7 @@
 
-# CentOS-8 repository için repo configürasyonu 
+# CentOS-8 repository için repo konfigürasyonu 
 
-## Configürasyon için repo klasörüne geçişiyoruz  to /etc/yum.repos.d/
+## Konfigürasyon için repo klasörüne geçişiyoruz  to /etc/yum.repos.d/
 
 ```
 cd /etc/yum.repos.d/
