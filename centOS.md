@@ -1,5 +1,5 @@
 
-# CentOS düşük sürümler için repo configürasyonu 
+# CentOS-8 repository için repo configürasyonu 
 
 ## Configürasyon için repo klasörüne geçişiyoruz  to /etc/yum.repos.d/
 
